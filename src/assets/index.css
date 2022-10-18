@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background: rgba(221, 213, 218, 0.6);
+    box-sizing: border-box;
+}
+/* Tables styling */
+.section{
+    display: flex;
+    justify-content: center;
+    background: rgba(122, 219, 218, 0.6);
+}
+table{
+    border:1px solid grey;
+    border-collapse: collapse;
+}
+thead tr, thead th{
+    border:1px solid grey;
+    padding:10px;
+    text-align: left;
+
+}
+tbody tr, tbody td{
+    border:1px solid grey;
+    padding:10px;
+    text-align: left;
+    
+}
+/*Input styling */
+
+.form_section{
+    background: rgba(0 ,0, 0, 0.6);
+    width: 80%;
+    height:50px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px white;
+    box-shadow: -3px -3px 3px white;
+}
+form{
+    width:100%;
+display: flex;
+justify-content: space-evenly;
+}
+form input{
+    padding:5px;
+    outline: none;
+    border: 0.6px solid coral;
+  
+    color:black;
+}
+form ::placeholder{
+    color:rgb(15, 10, 10);
+}
+form button{
+    width:10%;
+    border:none;
+    background: rgba(47, 219, 41, 0.6);
+    
+    color:yellow;
+    border-radius:10px;
+}
+form button:hover{
+    background: rgba(102, 17, 17, 0.6);
+}
+form input:hover{
+    background: transparent;
+    color:white;
+}
